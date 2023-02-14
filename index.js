@@ -15,7 +15,7 @@ function submitform() {
     amt = 450 + (unit - 50) * 9.5;
   } else if (unit >= 101 && unit <= 250) {
     //101-250
-    amt = 950 + (unit - 100) * 11;
+    amt = 950 + (unit - 100) * 9.5;
   } else if (unit > 250) {
     //250 above
     amt = 2425 + (unit - 250) * 11;
