@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   color: white;
-  background-color: #18191a#222;
+  background-color: #a6a7a8;
   margin: 0;
 }
 
@@ -34,7 +34,7 @@ input[type="number"] {
   box-sizing: border-box;
 }
 
-input[type="button"] {
+.btn {
   padding: 10px 20px;
   margin: 10px;
   border: none;
@@ -46,6 +46,6 @@ input[type="button"] {
   transition: all 0.3s ease;
 }
 
-input[type="button"]:hover {
+.btn:hover {
   background-color: #0069d9;
 }
